@@ -1,3 +1,4 @@
+/* Apresentação / Introdução */
 .introducao {
   max-width: 1200px;
   padding: 40px 20px;
@@ -5,4 +6,21 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+}
+
+/*Detalhe em Desenvolvedor */
+.introducao h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(../img/detalhe.svg) no-repeat center;
+  position: absolute;
+  z-index: -1;
 }
