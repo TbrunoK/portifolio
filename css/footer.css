@@ -63,6 +63,7 @@
 
 .botao:hover {
   background-color: #ffffff;
+  border: 1px solid blue;
 }
 
 .botao-email {
