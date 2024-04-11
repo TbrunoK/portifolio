@@ -54,10 +54,11 @@
   display: block;
   width: fit-content;
   padding: 10px 20px;
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 10px;
+  border: 1px solid rgb(94, 88, 88);
 }
 
 .botao:hover {
