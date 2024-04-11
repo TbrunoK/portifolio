@@ -116,6 +116,11 @@
   }
 }
 
+.link-projeto {
+  color: rgb(0, 136, 247);
+  text-decoration: underline;
+}
+
 @media (max-width: 400px) {
   .empresa {
     grid-template-columns: 1fr;
