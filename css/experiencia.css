@@ -38,6 +38,7 @@
   position: relative;
 }
 
+/* Detalhe / efeito */
 .empresa::before {
   content: "";
   display: block;
