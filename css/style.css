@@ -3,7 +3,9 @@
 @import "./introducao.css";
 @import "./experiencia.css";
 @import "./formacao.css";
+@import "./footer.css";
 
+/* remover estilo */
 a {
   text-decoration: none;
   color: black;
