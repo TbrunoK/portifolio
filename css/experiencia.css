@@ -117,8 +117,13 @@
 }
 
 .link-projeto {
-  color: rgb(0, 136, 247);
+  color: #2265f7;
   text-decoration: underline;
+}
+
+.link-projeto:hover {
+  color: #0818f8;
+  text-decoration: none;
 }
 
 @media (max-width: 400px) {
