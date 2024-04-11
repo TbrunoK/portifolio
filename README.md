@@ -22,3 +22,10 @@ O projeto é dividido em vários arquivos para uma organização melhor:
 - Estilo personalizado para cada seção, garantindo consistência visual em toda a página.
 
 Este projeto é uma demonstração minhas habilidades, como desenvolvedor front-end e designer.
+
+<div>
+  <a href="https://tbrunok.github.io/portifolio/">
+    <img src="https://github.com/TbrunoK/portifolio/blob/main/img/projeto.png?raw=true">
+  </a>
+ 
+</div>
