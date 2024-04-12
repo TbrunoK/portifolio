@@ -24,7 +24,7 @@ O projeto é dividido em vários arquivos para uma organização melhor:
 Este projeto é uma demonstração minhas habilidades, como desenvolvedor front-end e designer.
 
 <div>
-  <a href="https://tbrunok.github.io/portifolio/">
+  <a href="tbrunok.github.io/portfolio/">
     <img src="https://github.com/TbrunoK/portifolio/blob/main/img/projeto.png?raw=true">
   </a>
  
