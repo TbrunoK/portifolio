@@ -47,14 +47,17 @@
 }
 /* Estilos dos botões de contato */
 .botoes-contato {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  box-sizing: content-box;
   margin-top: 20px;
 }
 
 .botao {
-  display: block;
-  width: fit-content;
   padding: 10px 20px;
   font-size: 1.5rem;
+  justify-content: space-between;
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -70,6 +73,16 @@
   border-right: 2px solid rgb(255, 253, 255);
   border-radius: 4px;
   background-color: #272626;
+  transition: background-color 0.5s;
+}
+
+.email-logo {
+  width: 1rem;
+  border-radius: 4px;
+
+  background: white;
+  position: relative;
+  margin: auto;
 }
 
 .botao-telefone {
@@ -77,10 +90,21 @@
 }
 
 .botao-telefone:hover {
-  border-left: 2px solid rgb(255, 253, 253);
-  border-right: 2px solid rgb(255, 253, 255);
+  border-left: 2px solid #1e941e;
+  border-right: 2px solid #1e941e;
   border-radius: 4px;
-  background-color: #272626;
+  background-color: #14e914;
+  transition: background-color 0.5s;
+  color: black;
+}
+
+.whats-logo {
+  width: 1rem;
+  position: relative;
+
+  margin: auto;
+  border-radius: 12px;
+  background-color: #14e914;
 }
 
 .botao-instagram {
@@ -88,10 +112,19 @@
 }
 
 .botao-instagram:hover {
-  border-left: 2px solid rgb(255, 253, 253);
-  border-right: 2px solid rgb(255, 253, 255);
+  border-left: 2px solid #a3095e;
+  border-right: 2px solid #a3095e;
   border-radius: 4px;
-  background-color: #272626;
+  width: 200px;
+  height: 200px;
+  background-color: #a3095e;
+  transition: background-color 0.5s;
+}
+
+.instagram-logo {
+  width: 1rem;
+  position: relative;
+  margin: auto;
 }
 
 .credits,
