@@ -43,6 +43,7 @@
 }
 
 .github-logo {
+  background-image: url(../img/github-mark-white2.png);
   display: flex;
   margin-left: 13rem;
   margin-top: -2.5rem;
