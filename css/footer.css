@@ -54,16 +54,11 @@
   display: block;
   width: fit-content;
   padding: 10px 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 10px;
   border: 1px solid rgb(94, 88, 88);
-}
-
-.botao:hover {
-  background-color: #ffffff;
-  border: 1px solid blue;
 }
 
 .botao-email {
@@ -71,6 +66,9 @@
 }
 
 .botao-email:hover {
+  border-left: 2px solid rgb(255, 253, 253);
+  border-right: 2px solid rgb(255, 253, 255);
+  border-radius: 4px;
   background-color: #272626;
 }
 
@@ -79,6 +77,9 @@
 }
 
 .botao-telefone:hover {
+  border-left: 2px solid rgb(255, 253, 253);
+  border-right: 2px solid rgb(255, 253, 255);
+  border-radius: 4px;
   background-color: #272626;
 }
 
@@ -87,5 +88,15 @@
 }
 
 .botao-instagram:hover {
+  border-left: 2px solid rgb(255, 253, 253);
+  border-right: 2px solid rgb(255, 253, 255);
+  border-radius: 4px;
   background-color: #272626;
+}
+
+.credits,
+.footer-copy {
+  background-color: #141414;
+  font-size: 2rem;
+  text-align: center;
 }

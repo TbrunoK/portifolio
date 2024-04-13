@@ -155,7 +155,6 @@
   }
   .formacao-container::after {
     padding: 1px;
-    border: 1px solid red;
     margin-bottom: 50px;
   }
 
