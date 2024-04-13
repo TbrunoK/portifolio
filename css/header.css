@@ -42,6 +42,14 @@
   border-right: 2px solid #000000;
 }
 
+.github-logo {
+  display: flex;
+  margin-left: 13rem;
+  margin-top: -2.5rem;
+  width: 40px;
+  border: 1px solid red;
+}
+
 /*.header-menu a:hover {
   border: 1px solid black;
 }
