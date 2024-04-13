@@ -47,7 +47,12 @@
   margin-left: 13rem;
   margin-top: -2.5rem;
   width: 40px;
-  border: 1px solid red;
+}
+
+.github-logo:hover {
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+  border-radius: 22px;
 }
 
 /*.header-menu a:hover {
