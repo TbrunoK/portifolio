@@ -24,13 +24,22 @@
   text-decoration: none;
   color: #141414;
   border-radius: 4px;
-  background-color: rgb(168, 166, 166);
+  background-color: #a8a6a6;
 }
 
 .header-menu a:hover {
-  border-left: 2px solid rgb(0, 0, 0);
-  border-right: 2px solid rgb(0, 0, 0);
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
   border-radius: 4px;
+}
+
+.creator-name {
+  border-radius: 4px;
+}
+
+.creator-name:hover {
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
 }
 
 /*.header-menu a:hover {
