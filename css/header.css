@@ -25,9 +25,13 @@
   color: #141414;
   border-radius: 4px;
   background-color: #a8a6a6;
+  border: 1px solid black;
 }
 
 .header-menu a:hover {
+  color: #ffffff;
+  background-color: black;
+  transition: background-color 0.5s;
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
   border-radius: 4px;
