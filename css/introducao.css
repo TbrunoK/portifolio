@@ -20,12 +20,13 @@
 .introducao h1::before {
   content: "";
   display: block;
+  position: relative;
   width: 130px;
   height: 100px;
   background: url(../img/detalhe.svg) no-repeat center;
 
-  top: -15px;
-  left: -40px;
+  top: 5rem;
+  left: -1.8rem;
 
   z-index: -1;
 }

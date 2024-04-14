@@ -5,7 +5,7 @@
 
 .formacao-container {
   max-width: 1200px;
-  padding: 120px 20px;
+  padding: 120px 20px 0px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -16,7 +16,7 @@
   color: #000000;
   max-width: 5ch;
 }
-
+/*
 .formacao-container::after {
   content: "";
   display: block;
@@ -24,10 +24,11 @@
   height: 100px;
   background: url("../img/detalhe.svg") no-repeat center;
   position: relative;
-  bottom: -160px;
-  left: 20px;
+  bottom: -12rem;
+  left: -2rem;
+  z-index: 1;
 }
-
+*/
 .formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;

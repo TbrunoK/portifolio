@@ -45,6 +45,7 @@
     font-size: 1.5rem;
   }
 }
+
 /* Estilos dos botões de contato */
 .botoes-contato {
   display: flex;
@@ -72,8 +73,9 @@
   border-left: 2px solid rgb(255, 253, 253);
   border-right: 2px solid rgb(255, 253, 255);
   border-radius: 4px;
-  background-color: #272626;
+  background-color: #887373;
   transition: background-color 0.5s;
+  color: #000000;
 }
 
 .email-logo {
@@ -95,7 +97,7 @@
   border-radius: 4px;
   background-color: #14e914;
   transition: background-color 0.5s;
-  color: black;
+  color: rgb(29, 34, 31);
 }
 
 .whats-logo {
@@ -118,6 +120,7 @@
 
   background-color: #a3095e;
   transition: background-color 0.5s;
+  color: #220b24;
 }
 
 .instagram-logo {
