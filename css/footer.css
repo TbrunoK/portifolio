@@ -115,8 +115,7 @@
   border-left: 2px solid #a3095e;
   border-right: 2px solid #a3095e;
   border-radius: 4px;
-  width: 200px;
-  height: 200px;
+
   background-color: #a3095e;
   transition: background-color 0.5s;
 }
