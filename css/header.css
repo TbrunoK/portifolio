@@ -30,7 +30,7 @@
 
 .header-menu a:hover {
   color: #ffffff;
-  background-color: black;
+  background-color: rgb(78, 76, 76);
   transition: background-color 0.5s;
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
@@ -59,6 +59,34 @@
   border-left: 2px solid #000000;
   border-right: 2px solid #000000;
   border-radius: 22px;
+}
+
+/* Icon - menu header */
+.experiencia-projetos {
+  display: flex;
+  padding-left: 0.5rem;
+  width: 1rem;
+  position: absolute;
+  margin-left: -1.5rem;
+  margin-top: -1.25rem;
+}
+
+.cursos-formacao {
+  display: flex;
+  padding-left: 0.5rem;
+  width: 1rem;
+  position: absolute;
+  margin-left: -1.5rem;
+  margin-top: -1.25rem;
+}
+
+.whats-contato {
+  display: flex;
+  padding-left: 0.5rem;
+  width: 1rem;
+  position: absolute;
+  margin-left: -1.5rem;
+  margin-top: -1.25rem;
 }
 
 /*.header-menu a:hover {
