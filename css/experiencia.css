@@ -91,6 +91,21 @@
   margin: 6px 6px;
 }
 
+.habilidades::after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 3px;
+
+  background-color: #000000;
+  transition: 0.3s;
+  position: relative;
+}
+
+.habilidades:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;
