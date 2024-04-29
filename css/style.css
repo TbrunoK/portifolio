@@ -1,9 +1,21 @@
+/* arquivos */
 @import "./global.css";
 @import "./header.css";
 @import "./introducao.css";
 @import "./experiencia.css";
 @import "./formacao.css";
 @import "./footer.css";
+
+/* Variáveis */
+:root {
+  --cor-header-background: #d3d2d2;
+  --cor-intro: #525252;
+  --cor-localizacao: #525252;
+  --cor-fundo-menu: #a8a6a6;
+  --borda: 1px solid #000000;
+  --texto-hover: #ffffff;
+  --borda-detalhe: 2px solid #000000;
+}
 
 /* remover estilo */
 a {

@@ -31,9 +31,10 @@
   z-index: -1;
 }
 
+/* Intro localização */
 .introducao p {
   font-size: 1.5rem;
-  color: #525252;
+  color: var(--cor-localizacao);
 }
 
 @media (max-width: 1000px) {
